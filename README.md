@@ -1,5 +1,6 @@
 # node-couchbase-crud
 Lightweight node client for Couchbase CRUD operations
+NPM JS: https://www.npmjs.com/package/node-couchbase-crud
 
 
 EXAMPLE CODE USAGE OF METHODS INSERT(POST), UPDATE(PUT), SELECT(GET), DELETE(DELETE)
