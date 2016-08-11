@@ -1,0 +1,14 @@
+{
+	"responsesetempty":{"code":"101","message":"Response data set empty.", "success":false},
+	"insertfailed":{"code":"102","message":"Insert failed.", "success":false},
+	"datafetchfailed":{"code":"103","message":"Data fetch failed.", "success":false},
+	"invalidjson":{"code":"104","message":"Invalid json object.", "success":false},
+	"viewnotfound":{"code":"105","message":"Couchbase view not found.","success":false},
+	"inputdocumentempty":{"code":"106","message":"Input document empty.","success":false},
+	"nodocumentid":{"code":"107","message":"No document_id received.", "success":false},
+	"datadeletionfailed":{"code":"108","message":"Data deletion failed.", "success":false},
+	"noviewfound":{"code":"109","message":"No production view found. Kindly create a production view(details in description) to get all rows.", "success":false},
+	"insertsuccess":{"code":"201","message":"Upsert successfull.", "success":true},
+	"datafetchsuccess":{"code":"202","message":"Data fetch successfull.", "success":true},
+	"datadeletionsuccess":{"code":"203","message":"Data deletion successfull.", "success":true}
+}
