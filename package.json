@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
-      "uuid":"~2.0.2",
-      "couchnode":"~4.3.4"
+  "dependencies": {
+    "uuid": "~2.0.2",
+    "couchnode": "~4.3.4"
   },
   "author": "Aakash Thakkar",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakashthakkar/node-couchbase-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aakashthakkar/node-couchbase-crud/issues"
+  },
+  "homepage": "https://github.com/aakashthakkar/node-couchbase-crud#readme"
 }
