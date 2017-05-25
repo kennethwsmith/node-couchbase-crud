@@ -13,7 +13,7 @@ var objDocument = function(config){
 	if(config.couchbase_view_name){
 		this.view=config.couchbase_view_name;
 	}
-}
+};
 
 
 objDocument.prototype = {
@@ -32,7 +32,7 @@ objDocument.prototype = {
 
 	},
 	upsertDocument:function(document_id, document_content, callback){
-		if (couchbaseConnected == false){
+		if (couchbaseConnected === false){
 			this.tryOpenBucket();
 		}
 		// validating inputs
@@ -58,7 +58,7 @@ objDocument.prototype = {
 		});
 	},
 	getDocument:function(document_id, callback){
-		if (couchbaseConnected == false){
+		if (couchbaseConnected === false){
 			this.tryOpenBucket();
 		}
 		if(document_id){
@@ -98,7 +98,7 @@ objDocument.prototype = {
 		}
 	},
 	deleteDocument:function(document_id, callback){
-		if (couchbaseConnected == false){
+		if (couchbaseConnected === false){
 			this.tryOpenBucket();
 		}
 		if(!document_id){
@@ -113,5 +113,5 @@ objDocument.prototype = {
 	        return callback(responsecodes.datadeletionsuccess);
 	    });
 	}
-}
+};
 module.exports = objDocument;
